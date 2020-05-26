@@ -1,0 +1,114 @@
+body{
+	width: 100%;
+	height:2000px;
+	padding: 0 2%;
+}
+.header-fixed{
+ background-color: black;
+ width: 100%;
+ position: fixed;
+ top:0;
+ left: 0;
+ z-index: 10;
+}
+
+.logo{
+	float: left;
+	width: 100px;
+	margin-left: 20px;
+	box-shadow: 0 3px 12px #2196F3;
+}
+.navigation{
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+
+}
+.nav-li{
+	display: inline-block;
+	margin-left: 10px;
+
+
+}
+.clear{
+	clear: both;
+}
+/*ვერ შევცვალე ფონტი*/
+.nav-li a{
+	color: #fff;
+	font-size: 20px;
+	font-family: BPG WEB 002 Caps;
+}
+/*რატომღაც არ შეეცვალა ფერი active-ზე*/
+.active {
+	color:grey;
+}
+
+.image-wrapper img{
+	width: 100%;
+	box-shadow: 0 3px 12px #2196F3;
+}
+.image-wrapper{
+	margin-top: 57px;
+	position: relative;
+}
+.cover-text{
+    width: 400px;
+	color:white;
+	background: black;
+	position: absolute;
+	padding: 10px;
+	top:50%;
+	left: 70%;
+}
+h3{
+	font-size: 22px;
+	font-weight: bolder;
+	margin-bottom: 5px;
+}
+
+h2{
+	position: sticky;
+	top:58px;
+	color:black;
+	background: grey;
+	padding: 5px;
+	font-size: 24px;
+	text-align: center;
+	font-family: BPG WEB 002 Caps;
+	
+}
+.container{
+	width: 100%;
+	height: 300px;
+	/*პროცენტულად როცა ვწერ ვერ აღიქვავს სიმაღლეს*/
+	padding: 2px;
+	margin-top: 20px;
+
+}
+.inside-box{
+	width: 22%;
+	height: 100%;
+	display:inline-block;
+	margin-right: 30px;
+
+}
+
+.image4{
+	margin: 0;
+} 
+.image1{
+	background-image: url(https://media2.carredartistes.com/42587-large_default/Blues.jpg);
+    background-repeat: no-repeat;
+}
+.image2{
+	background-image: url(https://media3.carredartistes.com/39483-large_default/composition-2.jpg);
+}
+.image3{
+	background-image: url(https://previews.123rf.com/images/totamilow/totamilow1807/totamilow180700068/105150345-hand-drawn-acrylic-painting-abstract-art-background-color-texture-fragment-of-artwork-abstract-paint.jpg);
+	background-position: center;
+}
+.image4{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRnTJXEWmipXfA99p9Jl2piWxCzXJfpJ0Oo5IA0lllrGqyGPnAy&usqp=CAU);
+    background-position: right;
+}
